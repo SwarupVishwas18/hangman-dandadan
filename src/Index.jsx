@@ -5,11 +5,11 @@ function Index() {
                 <h1>Hangman</h1>
                 <div className="character-cards">
                     <div className="char-card">
-                        <a href="/okarun">
+                        <a href="/hangman-dandadan/okarun">
                             Okarun
                         </a>
                     </div>
-                    <div className="char-card"><a href="/momo">Momo</a></div>
+                    <div className="char-card"><a href="/hangman-dandadan/momo">Momo</a></div>
                 </div>
             </div>
         </div>

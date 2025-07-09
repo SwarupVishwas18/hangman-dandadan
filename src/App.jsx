@@ -10,9 +10,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' Component={Index} />
-          <Route path='/okarun' Component={Okarun} />
-          <Route path='/momo' Component={Momo} />
+          <Route path='/hangman-dandadan/' Component={Index} />
+          <Route path='/hangman-dandadan/okarun' Component={Okarun} />
+          <Route path='/hangman-dandadan/momo' Component={Momo} />
         </Routes>
       </BrowserRouter>
     </>
