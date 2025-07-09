@@ -1,0 +1,100 @@
+{
+  "okarun_side": {
+    "correct_guess": [
+      {
+        "momo": "Gotcha, hag! Not today!",
+        "turbo_granny": "Tch! You brat again!?"
+      },
+      {
+        "momo": "Hang in there, Okarun!",
+        "turbo_granny": "You can't stop me forever…"
+      },
+      {
+        "momo": "You're strong, I know you can fight it.",
+        "turbo_granny": "Heh, I *like* resistance."
+      },
+      {
+        "momo": "Nice one! She's fading!",
+        "turbo_granny": "GRRR... You little punk!"
+      },
+      {
+        "momo": "He’s safe… for now.",
+        "turbo_granny": "I'll be back. I always am~"
+      }
+    ],
+    "wrong_guess": [
+      {
+        "momo": "Crap! She’s getting closer!",
+        "turbo_granny": "Mmmm… this soul’s spicy!"
+      },
+      {
+        "momo": "Focus, you're losing him!",
+        "turbo_granny": "Tastes like fear~"
+      },
+      {
+        "momo": "Okarun, snap out of it!",
+        "turbo_granny": "Almost mine... just a little more!"
+      },
+      {
+        "momo": "No no no—don’t let her in!",
+        "turbo_granny": "AH HAHA! He twitches when I poke him!"
+      },
+      {
+        "momo": "No! He’s… slipping away.",
+        "turbo_granny": "Finally. This body is mine!"
+      }
+    ]
+  },
+  "momo_side": {
+    "correct_guess": [
+      {
+        "okarun": "Back off, space creeps!",
+        "aliens": "Subject interference detected."
+      },
+      {
+        "okarun": "Not on my watch!",
+        "aliens": "Recalibrating... failed."
+      },
+      {
+        "okarun": "You okay, Momo!?",
+        "aliens": "Psychic disruption... impossible!"
+      },
+      {
+        "okarun": "Direct hit! Beam weakening!",
+        "aliens": "Malfunction… psychic burst incoming…"
+      },
+      {
+        "okarun": "You’re safe now.",
+        "aliens": "We will return… with vengeance."
+      }
+    ],
+    "wrong_guess": [
+      {
+        "okarun": "They’re locking on—move!",
+        "aliens": "Target coordinates aligned."
+      },
+      {
+        "okarun": "Damn, they’re too fast!",
+        "aliens": "Initiating pull sequence."
+      },
+      {
+        "okarun": "Hang in there, Momo!!",
+        "aliens": "Subject M-01 is mid-air."
+      },
+      {
+        "okarun": "No—don’t let them take you!",
+        "aliens": "95% lift complete."
+      },
+      {
+        "okarun": "I… I couldn’t stop it.",
+        "aliens": "Subject acquired."
+      }
+    ]
+  },
+  "bonus_lines": {
+    "momo": ["Seriously, why is it *always* ghosts or aliens!?"],
+    "okarun": ["Hey, I said I’d protect you. No matter what."],
+    "turbo_granny": ["Play all you want, but I never lose my game~"],
+    "aliens": ["Earthlings are soft targets."]
+  }
+}

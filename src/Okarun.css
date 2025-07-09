@@ -1,0 +1,28 @@
+.game-scene{
+    background-image: url("./assets/bg/okarun.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.okarun, .granny{
+    position: absolute;
+    bottom: 15%;
+}
+
+.okarun{
+    left: 30%;
+}
+
+.granny{
+    left: 80%;
+    transition: left 0.3s ease-in-out;
+}
+
+.okarun img{
+    height: 25vh;
+}
+
+.granny img{
+    height: 30vh;
+}

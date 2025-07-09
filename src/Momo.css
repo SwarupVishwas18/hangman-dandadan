@@ -1,0 +1,66 @@
+.game-scene.momo-side{
+    background-image: url("./assets/bg/momo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.momo, .ufo{
+    position: absolute;
+    left: 50%;
+}
+
+.momo{
+    transition: top 0.3s ease-in-out;
+    top: 70%;
+    left: 51%;
+}
+
+.ufo{
+    top: 10%;
+    display: inline-block;
+}
+
+.momo img{
+    height: 25vh;
+    
+}
+
+.ufo img{
+    height: 10vh;
+    display: block;
+  width: 150px;
+  z-index: 2;
+  position: relative;
+}
+
+    .ufo::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* Start below the UFO */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 200px;
+  background: radial-gradient(ellipse at top, rgba(255, 255, 204, 0.6) 0%, rgba(255, 255, 204, 0.3) 40%, transparent 100%);
+  filter: blur(2px);
+  opacity: 0.9;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.momo-side .chat-bubble{
+    background-color: #1BC5BD;
+}
+
+.momo-side .guessed-word div{
+    background-color: #FFE600;
+    color: black;
+}
+
+.momo-side .words{
+    background-color: #1E1E1E;
+    padding: 1rem;
+    color: #A4F637;;
+}
+
