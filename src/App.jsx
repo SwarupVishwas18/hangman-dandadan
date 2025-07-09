@@ -10,7 +10,7 @@ function App() {
     <>
       <HashRouter>
         <Routes>
-          <Route path='/hangman-dandadan/' Component={Index} />
+          <Route path='/' Component={Index} />
           <Route path='/okarun' Component={Okarun} />
           <Route path='/momo' Component={Momo} />
         </Routes>
